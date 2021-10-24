@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\Core\Entity\EntityTypeInterface;
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function sdsnypl_entity_bundle_field_info_alter(&$fields, EntityTypeInterface $entity_type, $bundle) {
+
+  if (!empty($fields['field_exhibition_dates'])) {
+    $fields['field_exhibition_dates']->addConstraint('NoWeekends');
+  }
+
+}

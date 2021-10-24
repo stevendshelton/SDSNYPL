@@ -1,0 +1,9 @@
+name: 'sdsnypl'
+type: module
+description: 'Module for NYPL code test'
+author: Steven D. Shelton
+core_version_requirement: ^9
+version: 1.0
+
+dependencies:
+  - node
