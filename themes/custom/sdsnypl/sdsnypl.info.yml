@@ -1,0 +1,12 @@
+name: sdsnypl
+type: theme
+description: 'A custom theme by Steven D. Shelton for NYPL Assessment Test.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - sdsnypl/global-styling
+base theme: bartik
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
