@@ -1,0 +1,65 @@
+uuid: b8a31d33-3cd7-402b-81dd-30caca7274a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.exhibition.body
+    - field.field.node.exhibition.field_exhibition_dates
+    - field.field.node.exhibition.field_exhibition_image
+    - field.field.node.exhibition.field_exhibition_location
+    - image.style.thumbnail
+    - node.type.exhibition
+  module:
+    - datetime_range
+    - image
+    - text
+id: node.exhibition.default
+targetEntityType: node
+bundle: exhibition
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_exhibition_dates:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_exhibition_image:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_exhibition_location:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

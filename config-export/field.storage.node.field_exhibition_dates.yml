@@ -1,0 +1,20 @@
+uuid: 3e7a3738-cb5b-4f78-af1c-4174e960758d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_exhibition_dates
+field_name: field_exhibition_dates
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

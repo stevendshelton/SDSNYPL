@@ -1,0 +1,21 @@
+uuid: 4ab01ee3-d30f-4c2d-af0b-7e0e402a414f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exhibition_dates
+    - node.type.exhibition
+  module:
+    - datetime_range
+id: node.exhibition.field_exhibition_dates
+field_name: field_exhibition_dates
+entity_type: node
+bundle: exhibition
+label: 'Exhibition Dates'
+description: ' Please enter the start and end dates of the exhibition. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

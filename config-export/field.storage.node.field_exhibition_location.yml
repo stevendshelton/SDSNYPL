@@ -1,0 +1,285 @@
+uuid: 7ef3f4cc-8664-4d45-a7b7-3f69258e81a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_exhibition_location
+field_name: field_exhibition_location
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '115th Street Library'
+      label: '115th Street Library'
+    -
+      value: '125th Street Library'
+      label: '125th Street Library'
+    -
+      value: '53rd Street Library'
+      label: '53rd Street Library'
+    -
+      value: '58th Street Library'
+      label: '58th Street Library'
+    -
+      value: '67th Street Library'
+      label: '67th Street Library'
+    -
+      value: '96th Street Library'
+      label: '96th Street Library'
+    -
+      value: 'Aguilar Library'
+      label: 'Aguilar Library'
+    -
+      value: 'Allerton Library'
+      label: 'Allerton Library'
+    -
+      value: 'Andrew Heiskell Braille and Talking Book Library'
+      label: 'Andrew Heiskell Braille and Talking Book Library'
+    -
+      value: 'Battery Park City Library'
+      label: 'Battery Park City Library'
+    -
+      value: 'Baychester Library'
+      label: 'Baychester Library'
+    -
+      value: 'Belmont Library and Enrico Fermi Cultural Center'
+      label: 'Belmont Library and Enrico Fermi Cultural Center'
+    -
+      value: 'Bloomingdale Library'
+      label: 'Bloomingdale Library'
+    -
+      value: 'Bronx Library Center'
+      label: 'Bronx Library Center'
+    -
+      value: 'Castle Hill Library'
+      label: 'Castle Hill Library'
+    -
+      value: 'Chatham Square Library'
+      label: 'Chatham Square Library'
+    -
+      value: 'City Island Library'
+      label: 'City Island Library'
+    -
+      value: 'Clason''s Point Library'
+      label: 'Clason''s Point Library'
+    -
+      value: 'Columbus Library'
+      label: 'Columbus Library'
+    -
+      value: 'Countee Cullen Library'
+      label: 'Countee Cullen Library'
+    -
+      value: 'Dongan Hills Library'
+      label: 'Dongan Hills Library'
+    -
+      value: 'Eastchester Library'
+      label: 'Eastchester Library'
+    -
+      value: 'Edenwald Library'
+      label: 'Edenwald Library'
+    -
+      value: 'Epiphany Library'
+      label: 'Epiphany Library'
+    -
+      value: 'Fort Washington Library'
+      label: 'Fort Washington Library'
+    -
+      value: 'Francis Martin Library'
+      label: 'Francis Martin Library'
+    -
+      value: 'George Bruce Library'
+      label: 'George Bruce Library'
+    -
+      value: 'Grand Central Library'
+      label: 'Grand Central Library'
+    -
+      value: 'Grand Concourse Library'
+      label: 'Grand Concourse Library'
+    -
+      value: 'Great Kills Library'
+      label: 'Great Kills Library'
+    -
+      value: 'Hamilton Fish Park Library'
+      label: 'Hamilton Fish Park Library'
+    -
+      value: 'Hamilton Grange Library'
+      label: 'Hamilton Grange Library'
+    -
+      value: 'Harlem Library'
+      label: 'Harlem Library'
+    -
+      value: 'High Bridge Library'
+      label: 'High Bridge Library'
+    -
+      value: 'Hudson Park Library'
+      label: 'Hudson Park Library'
+    -
+      value: 'Huguenot Park Library'
+      label: 'Huguenot Park Library'
+    -
+      value: 'Hunts Point Library'
+      label: 'Hunts Point Library'
+    -
+      value: 'Inwood Library'
+      label: 'Inwood Library'
+    -
+      value: 'Jefferson Market Library'
+      label: 'Jefferson Market Library'
+    -
+      value: 'Jerome Park Library'
+      label: 'Jerome Park Library'
+    -
+      value: 'Kingsbridge Library'
+      label: 'Kingsbridge Library'
+    -
+      value: 'Kips Bay Library'
+      label: 'Kips Bay Library'
+    -
+      value: 'Macomb''s Bridge Library'
+      label: 'Macomb''s Bridge Library'
+    -
+      value: 'Mariners Harbor Library'
+      label: 'Mariners Harbor Library'
+    -
+      value: 'Melrose Library'
+      label: 'Melrose Library'
+    -
+      value: 'Morningside Heights'
+      label: 'Morningside Heights'
+    -
+      value: 'Morris Park Library'
+      label: 'Morris Park Library'
+    -
+      value: 'Morrisania Library'
+      label: 'Morrisania Library'
+    -
+      value: 'Mosholu Library'
+      label: 'Mosholu Library'
+    -
+      value: 'Mott Haven Library'
+      label: 'Mott Haven Library'
+    -
+      value: 'Muhlenberg Library'
+      label: 'Muhlenberg Library'
+    -
+      value: 'Mulberry Street Library'
+      label: 'Mulberry Street Library'
+    -
+      value: 'New Amsterdam Library'
+      label: 'New Amsterdam Library'
+    -
+      value: 'New Dorp Library'
+      label: 'New Dorp Library'
+    -
+      value: 'Ottendorfer Library'
+      label: 'Ottendorfer Library'
+    -
+      value: 'Parkchester Library'
+      label: 'Parkchester Library'
+    -
+      value: 'Pelham Bay Library'
+      label: 'Pelham Bay Library'
+    -
+      value: 'Pelham Parkway-Van Nest Library'
+      label: 'Pelham Parkway-Van Nest Library'
+    -
+      value: 'Port Richmond Library'
+      label: 'Port Richmond Library'
+    -
+      value: 'Richmondtown Library'
+      label: 'Richmondtown Library'
+    -
+      value: 'Riverdale Library'
+      label: 'Riverdale Library'
+    -
+      value: 'Riverside Library'
+      label: 'Riverside Library'
+    -
+      value: 'Roosevelt Island Library'
+      label: 'Roosevelt Island Library'
+    -
+      value: 'Sedgwick Library'
+      label: 'Sedgwick Library'
+    -
+      value: 'Seward Park Library'
+      label: 'Seward Park Library'
+    -
+      value: 'Soundview Library'
+      label: 'Soundview Library'
+    -
+      value: 'South Beach Library'
+      label: 'South Beach Library'
+    -
+      value: 'Spuyten Duyvil Library'
+      label: 'Spuyten Duyvil Library'
+    -
+      value: 'St. Agnes Library'
+      label: 'St. Agnes Library'
+    -
+      value: 'St. George Library Center'
+      label: 'St. George Library Center'
+    -
+      value: 'Stapleton Library'
+      label: 'Stapleton Library'
+    -
+      value: 'Stavros Niarchos Foundation Library'
+      label: 'Stavros Niarchos Foundation Library'
+    -
+      value: 'Terence Cardinal Cooke-Cathedral Library'
+      label: 'Terence Cardinal Cooke-Cathedral Library'
+    -
+      value: 'Throg''s Neck Library'
+      label: 'Throg''s Neck Library'
+    -
+      value: 'Todt Hill-Westerleigh Library'
+      label: 'Todt Hill-Westerleigh Library'
+    -
+      value: 'Tompkins Square Library'
+      label: 'Tompkins Square Library'
+    -
+      value: 'Tottenville Library'
+      label: 'Tottenville Library'
+    -
+      value: 'Tremont Library'
+      label: 'Tremont Library'
+    -
+      value: 'Van Cortlandt Library'
+      label: 'Van Cortlandt Library'
+    -
+      value: 'Wakefield Library'
+      label: 'Wakefield Library'
+    -
+      value: 'Washington Heights Library'
+      label: 'Washington Heights Library'
+    -
+      value: 'Webster Library'
+      label: 'Webster Library'
+    -
+      value: 'West Farms Library'
+      label: 'West Farms Library'
+    -
+      value: 'West New Brighton Library'
+      label: 'West New Brighton Library'
+    -
+      value: 'Westchester Square Library'
+      label: 'Westchester Square Library'
+    -
+      value: 'Woodlawn Heights Library'
+      label: 'Woodlawn Heights Library'
+    -
+      value: 'Woodstock Library'
+      label: 'Woodstock Library'
+    -
+      value: 'Yorkville Library'
+      label: 'Yorkville Library'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

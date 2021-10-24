@@ -1,0 +1,36 @@
+uuid: 2584deee-7d1a-485e-8919-34fe1573ec4b
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.exhibition.body
+    - field.field.node.exhibition.field_exhibition_dates
+    - field.field.node.exhibition.field_exhibition_image
+    - field.field.node.exhibition.field_exhibition_location
+    - node.type.exhibition
+  module:
+    - text
+    - user
+id: node.exhibition.teaser
+targetEntityType: node
+bundle: exhibition
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_exhibition_dates: true
+  field_exhibition_image: true
+  field_exhibition_location: true

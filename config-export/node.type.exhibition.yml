@@ -1,0 +1,17 @@
+uuid: 684cca91-ed31-48cd-8187-ad1ad9dbeba9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Exhibition
+type: exhibition
+description: 'Used to promote exhibitions.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,21 @@
+uuid: 4d91feff-5af8-46a5-9aec-5a076c57eda4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exhibition_location
+    - node.type.exhibition
+  module:
+    - options
+id: node.exhibition.field_exhibition_location
+field_name: field_exhibition_location
+entity_type: node
+bundle: exhibition
+label: 'Exhibition Location'
+description: 'Please select the exhibition location.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
